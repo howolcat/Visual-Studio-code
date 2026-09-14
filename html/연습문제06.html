@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연습문제06</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+
+    <h2>필수 입력 사항</h2>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>
+                <input type="text" placeholder="아이디 10글자 이내" maxlength="10">
+                <button>중복확인</button>
+            </td>
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td><input type="password" placeholder="영문, 숫자, 특수문자 포함 8자 이상"></td>
+        </tr>
+         <tr>
+            <td>비밀번호 확인</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="text">
+                <select>
+                <option value="">직접입력</option>
+                <option value="naver.com">naver.com</option>
+                <option value="gmail.com">gmail.com</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>추가 정보</h2>
+
+    <p>프로필 사진 <input type="file"></p>
+
+    <p>
+        성별 :
+        <input type="radio" name="gender" id="male" checked>
+        <label for="male">남자</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">여자</label>
+    </p>
+      <p>생년월일 : <input type="date"></p>
+
+    <p>취미 :</p>
+    <div>
+        <input type="checkbox" id="hobby1"><label for="hobby1">게임</label>
+        <input type="checkbox" id="hobby2"><label for="hobby2">운동</label>
+        <input type="checkbox" id="hobby3"><label for="hobby3">취침</label>
+    </div>
+    <div>
+        <input type="checkbox" id="hobby4"><label for="hobby4">댄스</label>
+        <input type="checkbox" id="hobby5"><label for="hobby5">노래</label>
+        <input type="checkbox" id="hobby6" checked><label for="hobby6">공부</label>
+    </div>
+    <div>
+        <input type="checkbox" id="hobby7"><label for="hobby7">기타 :</label>
+        <input type="text">
+    </div>
+
+    <p>자기소개</p>
+    <textarea rows="5" cols="50"></textarea>
+
+    <p>
+        <button>회원가입</button>
+        <button type="reset">다시입력</button>
+        <button>이전으로</button>
+    </p>
+</body>
+</html>
