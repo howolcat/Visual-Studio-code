@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+
+.con{
+  background-color: blanchedalmond;
+  width: 80vw;
+  height: 500px;
+  display: flex;
+  border: 3px solid wheat;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left{
+  background-color: lightyellow;
+  width: 48%;
+  height:95%;
+}
+
+.right{
+  background-color: aliceblue;
+  width: 48%;
+  height: 95%;
+}
