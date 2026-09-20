@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(252, 243, 232);
+}
+
+
+
+
+.title{
+    border: 3px solid skyblue;
+    height: 200px;
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./d1.jpg) ;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.title1{
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    color: azure;
+}
+
+.back{
+    background-color: rgb(208, 86, 86);
+    height: 2000px;
+    display: flex;
+    position: relative;
+}
+
+.left{
+    background-color: aliceblue;
+    height: 1fr;
+    width: 15%;
+    margin: 5px;
+}
+
+.right{
+    background-color: aquamarine;
+    height: 1fr;
+    width: 90%;
+    margin: 20px;
+    display: grid;
+}
+
+.category{
+    position: sticky;
+    top: 20px;
+}

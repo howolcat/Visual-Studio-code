@@ -1,0 +1,81 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.con{
+  background-color: blanchedalmond;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border: 3px solid wheat;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  background-color: lightyellow;
+  width: 48%;
+  height: 95%;
+  position: relative;
+}
+
+.right{
+  background-color: rgb(245, 245, 236);
+  width: 48%;
+  height: 95%;
+  position: relative;
+}
+
+
+.leaf{
+  display: none;
+  position: relative;
+  padding: 24px;
+  padding-bottom: 60px; 
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.leaf p{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.7;
+  margin: 0 0 14px;
+
+}
+
+.nav{
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+#p1:checked ~ .con #left1,
+#p1:checked ~ .con #right1,
+#p2:checked ~ .con #left2,
+#p2:checked ~ .con #right2,
+#p3:checked ~ .con #left3,
+#p3:checked ~ .con #right3,
+#p4:checked ~ .con #left4,
+#p4:checked ~ .con #right4{
+  display: block;
+}
+
+label{
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #b8b3b3;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+}
+
+

@@ -1,0 +1,7 @@
+.page { display: none; }
+
+#p1:checked ~ #page1,
+#p2:checked ~ #page2,
+#p3:checked ~ #page3 {
+  display: block;
+}

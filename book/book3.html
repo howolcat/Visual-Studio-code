@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동화책</title>
+  <link rel="stylesheet" href="book3.css">
+</head>
+<body>
+
+  <!-- 페이지 상태를 기억하는 라디오들 (반드시 .con보다 먼저 와야 함) -->
+  <input type="radio" name="page" id="p1" checked hidden>
+  <input type="radio" name="page" id="p2" hidden>
+  <input type="radio" name="page" id="p3" hidden>
+
+  <div class="con">
+    <div class="left">
+      <div class="leaf" id="left1">1쪽 그림/왼쪽 내용</div>
+      <div class="leaf" id="left2">2쪽 그림/왼쪽 내용</div>
+      <div class="leaf" id="left3">3쪽 그림/왼쪽 내용</div>
+    </div>
+    <div class="right">
+      <div class="leaf" id="right1">
+        <p>1페이지 이야기...</p>
+        <label for="p2">다음 페이지 ▶</label>
+      </div>
+      <div class="leaf" id="right2">
+        <p>2페이지 이야기...</p>
+        <label for="p1">◀ 이전</label>
+        <label for="p3">다음 페이지 ▶</label>
+      </div>
+      <div class="leaf" id="right3">
+        <p>마지막 페이지...</p>
+        <label for="p2">◀ 이전</label>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
