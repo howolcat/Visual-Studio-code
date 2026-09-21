@@ -50,4 +50,12 @@ body{
 .category{
     position: sticky;
     top: 20px;
+    background-color: bisque;
+    height: 80px;
+}
+
+.main-prame{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
 }
